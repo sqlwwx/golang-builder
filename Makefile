@@ -8,3 +8,5 @@ build:
 	docker build -t sqlwwx/golang-builder:latest .
 publish:
 	docker push sqlwwx/golang-builder
+
+.PHONY: download-upx build publish
